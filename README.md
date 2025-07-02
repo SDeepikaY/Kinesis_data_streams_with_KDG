@@ -1,3 +1,4 @@
 # Kinesis_data_streams_with_KDG
 
-<img width="939" alt="image" src="https://github.com/user-attachments/assets/c491ffc3-46b5-407e-a730-db1df3fb69b9" />
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/17a5b05b-6d3f-4a67-9e5d-38de7061227c" />
+
