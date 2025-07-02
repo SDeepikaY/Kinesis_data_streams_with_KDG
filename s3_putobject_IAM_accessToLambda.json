@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "AllowPutObjectToKinesisBucket",
+        "Effect": "Allow",
+        "Action": ["s3:PutObject"],
+        "Resource": ["arn:aws:s3:::my-kinesis-etl-bucket-kine/*"]
+      }
+    ]
+  }
+  
