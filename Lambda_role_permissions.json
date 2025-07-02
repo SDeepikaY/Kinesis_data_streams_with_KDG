@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": [
+                    "glue.amazonaws.com",
+                    "textract.amazonaws.com",
+                    "transfer.amazonaws.com",
+                    "dms.amazonaws.com",
+                    "lakeformation.amazonaws.com",
+                    "events.amazonaws.com",
+                    "lambda.amazonaws.com",
+                    "datapipeline.amazonaws.com",
+                    "delivery.logs.amazonaws.com",
+                    "rds.amazonaws.com"
+                ]
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
