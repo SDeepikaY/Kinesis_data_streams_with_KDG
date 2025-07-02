@@ -1,0 +1,17 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"kinesis:GetRecords",
+				"kinesis:GetShardIterator",
+				"kinesis:DescribeStream",
+				"kinesis:DescribeStreamSummary",
+				"kinesis:ListShards",
+				"kinesis:ListStreams"
+			],
+			"Resource": "arn:aws:kinesis:us-east-2:272536203372:stream/Test"
+		}
+	]
+}
